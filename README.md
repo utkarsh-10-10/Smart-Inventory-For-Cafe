@@ -38,9 +38,7 @@ Place the downloaded .jar file in a folder named libs inside your project direct
 ## 💻 How to Run (Terminal/Command Prompt)
 Step 1: Compile the Code
 Open your terminal in the project directory and compile the Java file:
-
-Bash
-javac SIC_System.java
+`javac SIC_System.java`
 Step 2: Execute the Application
 Run the compiled code, making sure to include the SQLite JDBC driver in the classpath (-cp).
 
@@ -55,21 +53,24 @@ On Mac/Linux:
 (Replace X.X.X with the actual version number of the driver you downloaded).
 
 ## 🔑 Default Login Credentials
-Upon the very first launch, the database will auto-generate and seed the following default accounts.
 
-Admin:
-Username: admin
-Password: admin123
+Upon the very first launch, the database will auto-generate and seed the following default accounts:
 
-Staff:
-Username: staff
-Password: staff123
+* **Admin:**
+  * Username: `admin`
+  * Password: `admin123`
+* **Staff:**
+  * Username: `staff`
+  * Password: `staff123`
+* **Member:**
+  * Username: `member`
+  * Password: `member123`
 
-Member:
-Username: member
-Password: member123
+*(It is highly recommended to log in as Admin, create new secure accounts, and delete the default staff/member accounts for security).*
 
-(It is highly recommended to log in as Admin, create new secure accounts, and delete the default staff/member accounts for security).
+## 🤝 Team
 
-##🤝 Team
-Code Wizards
+**Code Wizards**
+* **Utkarsh** (S25CSEU1001)
+* **Akshita Garg** (S25CSEU1012)
+* **Riya Kumari** (S25CSEU1013)
