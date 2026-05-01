@@ -27,30 +27,35 @@ To run this application, you will need:
 ## 📥 Installation & Setup
 
 1. **Clone the Repository:**
-   git clone [https://github.com/utkarsh-10-10/Smart-Inventory-For-Cafe.git](https://github.com/utkarsh-10-10/Smart-Inventory-For-Cafe.git)
-   cd Smart-Inventory-For-Cafe
-3. **Download the SQLite JDBC Driver:**
+   `git clone [https://github.com/utkarsh-10-10/Smart-Inventory-For-Cafe.git](https://github.com/utkarsh-10-10/Smart-Inventory-For-Cafe.git)`
+   
+   `cd Smart-Inventory-For-Cafe`
+3. **Download the SQLite JDBC Driver**
 
-Download the latest sqlite-jdbc JAR file (e.g., sqlite-jdbc-3.45.1.0.jar) from the official GitHub releases or Maven Central.
+2.1.  **Download:** Obtain the latest `sqlite-jdbc` JAR file (e.g., `sqlite-jdbc-3.45.1.0.jar`) from official GitHub releases or Maven Central.
 
-Place the downloaded .jar file in a folder named libs inside your project directory (or directly in the root folder).
+2.2.  **Placement:** Place the downloaded `.jar` file in a folder named `libs` inside your project directory (or directly in the root folder).
 
-## 💻 How to Run (Terminal/Command Prompt)
-Step 1: Compile the Code
+---
+
+## 💻 **How to Run (Terminal/Command Prompt)**
+
+### **Step 1: Compile the Code**
 Open your terminal in the project directory and compile the Java file:
 `javac SIC_System.java`
-Step 2: Execute the Application
-Run the compiled code, making sure to include the SQLite JDBC driver in the classpath (-cp).
 
-On Windows:
-(Note the semicolon ; separating the current directory . and the driver path)
+### **Step 2: Execute the Application**
+Run the compiled code, ensuring the SQLite JDBC driver is included in the classpath (`-cp`).
 
+#### **On Windows:**
+*(Note the semicolon `;` separating the current directory `.` and the driver path)*
 `java -cp ".;libs\sqlite-jdbc-X.X.X.jar" SIC_System`
-On Mac/Linux:
-(Note the colon : separating the current directory . and the driver path)
 
+#### **On Mac/Linux:**
+*(Note the colon `:` separating the current directory `.` and the driver path)*
 `java -cp ".:libs/sqlite-jdbc-X.X.X.jar" SIC_System`
-(Replace X.X.X with the actual version number of the driver you downloaded).
+
+> **Note:** Replace `X.X.X` with the actual version number of the driver you downloaded
 
 ## 🔑 Default Login Credentials
 
@@ -69,8 +74,4 @@ Upon the very first launch, the database will auto-generate and seed the followi
 *(It is highly recommended to log in as Admin, create new secure accounts, and delete the default staff/member accounts for security).*
 
 ## 🤝 Team
-
 **Code Wizards**
-* **Utkarsh** (S25CSEU1001)
-* **Akshita Garg** (S25CSEU1012)
-* **Riya Kumari** (S25CSEU1013)
