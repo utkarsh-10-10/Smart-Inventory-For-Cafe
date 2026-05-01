@@ -27,7 +27,7 @@ To run this application, you will need:
 ## 📥 Installation & Setup
 
 1. **Clone the Repository:**
-   git clone [https://github.com/utkarsh-10-10/Smart-Inventory-For-Cafe.git](https://github.com/YourUsername/Smart-Inventory-For-Cafe.git)
+   git clone [https://github.com/utkarsh-10-10/Smart-Inventory-For-Cafe.git](https://github.com/utkarsh-10-10/Smart-Inventory-For-Cafe.git)
    cd Smart-Inventory-For-Cafe
 3. **Download the SQLite JDBC Driver:**
 
@@ -47,36 +47,29 @@ Run the compiled code, making sure to include the SQLite JDBC driver in the clas
 On Windows:
 (Note the semicolon ; separating the current directory . and the driver path)
 
-java -cp ".;libs\sqlite-jdbc-X.X.X.jar" SIC_System
+`java -cp ".;libs\sqlite-jdbc-X.X.X.jar" SIC_System`
 On Mac/Linux:
 (Note the colon : separating the current directory . and the driver path)
 
-java -cp ".:libs/sqlite-jdbc-X.X.X.jar" SIC_System
+`java -cp ".:libs/sqlite-jdbc-X.X.X.jar" SIC_System`
 (Replace X.X.X with the actual version number of the driver you downloaded).
 
 ## 🔑 Default Login Credentials
 Upon the very first launch, the database will auto-generate and seed the following default accounts.
 
-###Admin:
+Admin:
 Username: admin
 Password: admin123
 
-###Staff:
+Staff:
 Username: staff
 Password: staff123
 
-###Member:
+Member:
 Username: member
 Password: member123
 
 (It is highly recommended to log in as Admin, create new secure accounts, and delete the default staff/member accounts for security).
-
-##📂 Project Structure
-SIC_System.java: The core executable file containing all UI, business logic, and database connection utilities.
-
-Smart_Inventory_For_Cafe_Project_Report_v2.docx: The comprehensive academic project report detailing system design, architecture, and evaluations.
-
-Smart-Inventory-For-Cafe-SIC_6.pptx: The presentation deck designed for project evaluations and viva.
 
 ##🤝 Team
 Code Wizards
